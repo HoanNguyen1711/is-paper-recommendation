@@ -27,10 +27,14 @@ This project is a Streamlit application that allows users to search for semantic
     ```bash
     python3 -m streamlit run app.py
     ```
+Note: The first run may take a while to download the SentenceTransformer model.
 
 2. Open your web browser and go to `http://localhost:8501`.
 
-3. Upload a PDF paper or manually enter the title and abstract.
+3. Upload a PDF paper or manually enter the title and abstract. For example:
+    - Title: "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding"
+    - Abstract: "We introduce a new language representation model called BERT, which stands for Bidirectional Encoder Representations from Transformers."
+You could also use the provided example paper under pdf/ directory.
 
 4. Click the "Search" button to find the most similar papers.
 
